@@ -1,0 +1,32 @@
+.ta-center {
+    text-align: center;
+}
+
+.board {
+    display: block;
+}
+
+.board--disabled {
+    opacity: 0.3;
+}
+
+.container {
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    display: inline-grid;
+    grid-template: 80px 80px 80px / 80px 80px 80px;
+}
+
+.cell {
+    align-items: center;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    font-size: 28px;
+    justify-content: center;
+}
+
+.cell--win {
+    color: red;
+    font-weight: bold;
+}
